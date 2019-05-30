@@ -16,7 +16,7 @@ if (randomNum1 > randomNum2) {
     document.querySelector('#winner').innerHTML = 'Player Two Wins!!';
     document.querySelector('.img-one').classList.add('grayScale');
 } else {
-    document.querySelector('#winner').innerHTML = 'What how is this possible?!, Both Pokemon have fainted.';
+    document.querySelector('#winner').innerHTML = 'What?! How is this possible?! Both Pokemon have fainted.';
     document.querySelector('.img-one').classList.add('grayScale');
     document.querySelector('.img-two').classList.add('grayScale');
 }
