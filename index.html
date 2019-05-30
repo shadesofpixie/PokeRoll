@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PokeRoll</title>
+    <link rel="icon" href="img/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Concert+One|Inconsolata|Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header-section">
+
+            <h1>P o k e R o l l</h1>
+
+            <img id="pokeball" src="img/purple-pokeball.png" alt="This is a purple pokeball">
+
+            <h3>The Pokemon Chooses You!</h3>
+            <p>Who will win the battle???!!!!</p>
+
+        </div>
+
+        <hr>
+        
+        <div class="battle-section">
+
+            <div class="player-one">
+                <h2>Player One</h2>
+                <img class="img-one" src="img/pokemon1.png" alt="Pokemon Image">
+            </div>
+
+            <div class="player-two">
+                <h2>Player Two</h2>
+                <img class="img-two" src="img/pokemon2.png" alt="Pokemon Image">
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="winner">
+            <h3 id="winner">Refresh to Play;</h3>
+
+            <div class="btn">
+                <button type="submit" onClick="reloadPage()" class="replay">Play Again!</button>
+            </div>
+        </div>
+
+    </div>
+   
+    <footer>
+        <script src="js/script.js"></script>
+    </footer>
+</body>
+</html>

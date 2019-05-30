@@ -1,0 +1,115 @@
+/* 
+    -------------------------
+    General Styles 
+    -------------------------
+ */
+
+ /* B&W Filter for Losing Pokemon */
+ .grayScale {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+ }
+
+ body {
+     background-color: #8adfdc;
+     background-image: url(../img/faded-bg.png);
+     background-repeat: repeat;
+     color: #fff;
+     font-family: 'Montserrat', sans-serif;
+    
+ }
+
+ .container {
+    background: #313848;
+    border: 5px solid #599e9c;
+    box-sizing: border-box;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 15px;
+ }
+
+ /* 
+    -------------------------
+    Header Section
+    -------------------------
+ */
+
+ h1 {
+    font-family: 'Concert One', cursive;
+    font-size: 55px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #8adfdc;
+ }
+
+ .header-section {
+     padding: 20px;
+     text-align: center;
+ }
+
+ #pokeball {
+     height: 100px;
+     padding-bottom: 10px;
+ }
+
+ /* 
+    -------------------------
+    Battle Section
+    -------------------------
+ */
+
+ hr {
+    border: none;
+    border-top: 10px dotted #599E9C;
+    width: 5%;
+ }
+
+ .battle-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #735372;
+    padding-bottom: 20px;
+ }
+
+ .battle-section h2 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    letter-spacing: 0.4em;
+ }
+
+ img {
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+ }
+
+ /* 
+    -------------------------
+    Announce Winner
+    -------------------------
+ */
+
+ .winner h3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Inconsolata', monospace;
+ }
+
+.btn {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+ .replay {
+    background-color: #735372; 
+    color: #fff;
+    border: 2px solid #599E9C;
+    border-radius: 5%;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2em;
+    padding: 10px;
+ }
+
+ .replay:hover {
+    background-color: #599e9c;
+    border: 2px solid #735372;
+ }
