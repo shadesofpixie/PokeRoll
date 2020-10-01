@@ -1,5 +1,5 @@
 // Create two random number variables to cycle through Pokemon
-let randomNum1 = Math.floor(Math.random() * 12 + 1);
+let randomNum2 = Math.floor(Math.random() * 13); 
 
 
 
